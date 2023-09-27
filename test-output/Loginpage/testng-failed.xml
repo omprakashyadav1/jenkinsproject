@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loginpage]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login_page(failed)">
+    <classes>
+      <class name="com.om.PagesTest.LoginPageTest">
+        <methods>
+          <include name="loginpagetest"/>
+        </methods>
+      </class> <!-- com.om.PagesTest.LoginPageTest -->
+    </classes>
+  </test> <!-- Login_page(failed) -->
+</suite> <!-- Failed suite [Loginpage] -->
